@@ -13,7 +13,7 @@
 		}
 		if (!is_numeric($tab[$itr - 1])) {
 			array_pop($tab);
-			print("Veuillez n'entrer que des nombres." .PHP_EOL);
+			print("Veuillez n'entrer que des nombres." . PHP_EOL);
 		}
 	}
 
